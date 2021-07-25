@@ -44,6 +44,7 @@ input{
     border-bottom:1px solid black;
     background: transparent;
     font-size: x-large;
+    outline-width: none;
 }
 #itxt{
     display: inline-block;
