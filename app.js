@@ -22,7 +22,7 @@ function getResult(){
             pl=(sp-cp)*qty;
             percent=(((sp-cp)*100)/cp).toFixed(4);
             result.innerHTML="You gain "+percent+"%.Your total Profit is ₹"+pl;
-            document.style.backgroundImage="url('cashfull.jpg')";
+            document.body.style.backgroundImage="url('cashfull.jpg')";
             if(percent>50){
                 console.log("Happy theme");
                 document.body.style.backgroundImage="url('celeb.gif')";
