@@ -28,6 +28,11 @@ function getResult(){
                 document.body.style.backgroundImage="url('celeb.gif')";
             }
         }
+        else{
+            result.innerHTML="No Profit or Loss";
+            document.body.style.backgroundImage="url('cashfull.jpg')";
+            
+        }
     }    
     else{
         result.innerHTML="Amount should be Greater than zero";
