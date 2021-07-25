@@ -2,14 +2,14 @@
     border: 1px solid black;
     background-image: url("cashfull.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 
     max-width: 100%;
 }
 #mainContainer{
     margin: 20px auto;
     border: 1px solid black;
-    color:gray;
-    overflow: auto;
+    overflow: hidden;
 }
 #first{
     display:block;
@@ -19,41 +19,51 @@
     max-width: 100%;
     box-sizing: border-box;
     text-align: left;
-    color: gray;
+    color:black;
 }
 h1{
-    font-size: 2.5rem;
+    font-size: 3.0rem;
 }
 #txL{
     padding: 1.2rem;
     font-weight: bold;
-    color: gray;
 }
 #second{
     border: 1px solid black;
     float: right;
-    width: 50%;
     box-sizing: border-box;
     margin: 10px;
+    max-width: 100%;
 }
 img{
    width:100%;
 }
 
 input{
+    height: 40px;
     width: 430px;
     border:none;
     border-bottom:1px solid black;
     background: transparent;
-    color: gray;
+    font-size: x-large;
 }
 #itxt{
     display: inline-block;
     margin: 20px;
     text-decoration: underline;
-    color: gray;
+    color:black;
+    font-weight: bolder;
 }
 button{
     margin: 10px;
     padding: 1rem;
+}
+#result{
+    text-align: center;
+    padding: 1rem;
+    margin: 20px;
+    clear: both;
+    color: black;
+    font-weight: bolder;
+    font-size: 2rem;
 }
