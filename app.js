@@ -10,10 +10,10 @@ function getResult(){
             pl=(cp-sp)*qty;
             percent=(((cp-sp)*100)/cp).toFixed(2);
             result.innerHTML="You lost "+percent+"%.Your total loss is ₹"+pl;
-            back.style.backgroundImage="url('cashfull.jpg')";
+          //  back.style.backgroundImage="url('cashfull.jpg')";
             if(percent>50){
                 console.log("sad theme");
-                back.style.backgroundImage="url('fire-15.gif')";
+                document.body.style.backgroundImage="url('fire-15.gif')";
                 
                 
             }
@@ -22,10 +22,10 @@ function getResult(){
             pl=(sp-cp)*qty;
             percent=(((sp-cp)*100)/cp).toFixed(4);
             result.innerHTML="You gain "+percent+"%.Your total Profit is ₹"+pl;
-            back.style.backgroundImage="url('cashfull.jpg')";
+            //back.style.backgroundImage="url('cashfull.jpg')";
             if(percent>50){
                 console.log("Happy theme");
-                back.style.backgroundImage="url('celeb.gif')";
+                document.body.style.backgroundImage="url('celeb.gif')";
             }
         }
     }    
