@@ -30,7 +30,7 @@ function getResult(){
         }
     }    
     else{
-        console.log("no zero");
+        result.innerHTML="Amount should be Greater than zero";
     }
 
  }
