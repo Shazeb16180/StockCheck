@@ -2,7 +2,7 @@
     max-width: 100%;
 }
 body{
-    background-image: url("cashfull.jpg");
+    background-image: url("images/cashfull.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -65,4 +65,23 @@ button{
     color: black;
     font-weight: bolder;
     font-size: 2rem;
+}
+#container img{
+    background: transparent;
+}
+
+
+
+footer img{
+    width:30px;
+}
+footer{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin: 2px;
+    display: inline;
 }
