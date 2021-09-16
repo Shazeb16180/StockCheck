@@ -35,6 +35,7 @@ function getResult(){
         }
     }    
     else{
+        document.body.style.backgroundImage="url('images/cashfull.jpg')";
         result.innerHTML="Amount should be Greater than zero";
     }
 
